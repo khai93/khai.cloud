@@ -1,0 +1,102 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-item {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.hero-image {
+    width: 200px;
+}
+
+.hero-asset {
+    position: absolute;
+    animation: MoveUpDown 4s ease-in infinite;
+}
+
+.hero-triangle {
+    width: 2em;
+    left: 7%;
+    top: 8em;
+}
+
+.hero-left-line {
+    width: 4.4em;
+    left: 9.4%;
+    top: 14em;
+}
+
+.hero-right-line {
+    width: 2.3em;
+    right: 15%;
+    top: 7.1em;
+}
+
+.hero-square {
+    width: 2.5em;
+    right: 12%;
+    top: 12.5em;
+}
+
+@media screen and (min-width: 900px) {
+    .hero-image {
+        width: 300px;
+    }
+
+    .hero-triangle {
+        width: 3em;
+        left: 12.2%;
+    }
+
+    .hero-left-line {
+        width: 5.4em;
+        left: 12%;
+        top: 18em;
+    }
+
+    .hero-right-line {
+        width: 3.3em;
+    }
+
+    .hero-square {
+        width: 3.5em;
+        top: 18.4em;
+    }
+
+    .hero-item > h1 {
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 1px;
+        line-height: 50.4px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .hero-image {
+        width: 350px;
+    }
+
+    .hero-triangle {
+        width: 3.5em;
+        left: 13%;
+    }
+
+    .hero-left-line {
+        width: 8em;
+        left: 15%;
+    }
+    
+    .hero-right-line {
+        width: 3.8em;
+    }
+
+    .hero-square {
+        width: 4em;
+    }
+}

@@ -1,0 +1,47 @@
+.font-lato {
+    font-family: 'Lato', 'Open-Sans', sans-serif;
+}
+
+.font-black {
+    font-weight: bolder;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-medium {
+    font-weight: 600;
+}
+
+.font-light {
+    font-weight: light;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
+.text-xs {
+    font-size: x-small;
+}
+
+.text-sm {
+    font-size: small;
+}
+
+.text-base {
+    font-size: medium;
+}
+
+.text-lg {
+    font-size: large;
+}
+
+.text-xl {
+    font-size: larger;
+}
+
+.text-xxl {
+    font-size: x-large;
+}

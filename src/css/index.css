@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #1C61F9;
+    --black: #00081A;
+    --gray: #4B5D66;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 1em 5em;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+a {
+    color: var(--primary-color);
+    text-underline-offset: 4px;
+    transition-duration: 300ms;
+}
+
+a:hover {
+    filter: brightness(10%)
+}
+
+.primary-btn {
+    background-color: var(--primary-color);
+    box-shadow: -1px 3px 15px rgba(0, 0, 0, 0.25);
+    color: white;
+    padding: 0.6em 1.5em;
+    font-size: small;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+    backface-visibility: hidden;
+    transition-duration: 300ms;
+}
+
+.primary-btn:hover {
+    cursor: pointer;
+    transform: scale(103%) translateY(2px);
+}
+
+.mb-sm {
+    margin-bottom: 0.5em;
+}
+
+.mb-base {
+    margin-bottom: 1em;
+}
+
+.mb-md {
+    margin-bottom: 1.5em;
+}
+
+.mb-lg {
+    margin-bottom: 2em;
+}
+
+.mb-xl {
+    margin-bottom: 3em;
+}
+
+.mb-xxl {
+    margin-bottom: 4em;
+}
+
+.mb-xxxl {
+    margin-bottom: 5em;
+}
+
+.nav {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav > a {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.nav > a:not(:nth-of-type(0)) {
+    margin-left: 1.7em;
+}
+
+.nav-active {
+    color: var(--black) !important;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 900px) {
+    .nav > a:not(:nth-of-type(0)) {
+        margin-left: 3.5em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .nav {
+        margin-top: 2em;
+    }
+    .nav-seperator {
+        margin-bottom: 7em;
+    }
+}
