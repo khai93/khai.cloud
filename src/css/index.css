@@ -70,6 +70,9 @@ a:hover {
 .mb-xxxl {
     margin-bottom: 5em;
 }
+.mb-oxl {
+    margin-bottom: 12em;
+}
 
 .nav {
     text-align: center;
@@ -92,6 +95,15 @@ a:hover {
     color: var(--black) !important;
     font-weight: 600;
 }
+
+.w-full {
+    width: 100%;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
 
 @media screen and (min-width: 900px) {
     .nav > a:not(:nth-of-type(0)) {

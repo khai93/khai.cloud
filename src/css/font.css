@@ -1,5 +1,13 @@
 .font-lato {
-    font-family: 'Lato', 'Open-Sans', sans-serif;
+    font-family: 'Lato', 'Open Sans', sans-serif;
+}
+
+.font-sans {
+    font-family: 'Open Sans', 'Lato', sans-serif;
+}
+
+.font-cabin {
+    font-family: 'Cabin', 'Open Sans', sans-serif;
 }
 
 .font-black {
@@ -44,4 +52,12 @@
 
 .text-xxl {
     font-size: x-large;
+}
+
+.title {
+    text-align: center;
+}
+
+.text-blue {
+    color: var(--primary-color);
 }

@@ -8,11 +8,14 @@
         <meta name="author" content="Nang Khai">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="./css/index.css" />
         <link rel="stylesheet" href="./css/hero.css" />
         <link rel="stylesheet" href="./css/font.css" />
         <link rel="stylesheet" href="./css/animations.css" />
+        <link rel="stylesheet" href="./css/project.css" />
     </head>
     <body>
         <nav class="nav text-sm font-medium">
@@ -22,7 +25,7 @@
             <a href="#">CONTACT</a>
         </nav>
         <br class="mb-xl nav-seperator">
-        <section class="hero">
+        <section class="hero mb-xxxl">
             <article class="hero-item">
                 <img src="./assets/Sunset-rafiki.png" class="hero-image mb-md" />
                 <h1 class="font-medium mb-sm text-xl">Providing full-stack solutions anywhere.</h1>
@@ -36,6 +39,31 @@
             <img src="./assets/square.png" class="hero-asset hero-square" />
             <img src="./assets/triangle.png" class="hero-asset hero-triangle" />
             <!-- hero assets end -->
+        </section>
+        <section class="project-section">
+            <h2 class="title text-lg mb-xl">PROJECTS</h2>
+                <article class="project-item">
+                    <img class=" project-img" src="./assets/jootwork_mockup.png" alt="A laptop showcasing the joot.work website">
+                    <div className="project-item-content flx-1">
+                        <h2 class="project-title mb-md text-lg">Joot.work</h2>
+                        <p class="project-desc w-full">A search engine for jobs developed with <a href="https://github.com/khai93">Next.js</a> cached with <a href="https://github.com/khai93">Postgres</a>. Powered by Linkedin, Indeed, and more.</p>
+                        <div class="project-link">
+                            <a href="https://joot.work" target="_blank" class="project-link">Search for jobs smarter</a>
+                            <span class="project-link-arrow">&#8594</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-item">
+                    <img class="project-img" src="./assets/jootwork_mockup.png" alt="A laptop showcasing the joot.work website">
+                    <div className="project-item-content flex-1">
+                        <h2 class="project-title mb-md text-lg">Suke.app</h2>
+                        <p class="project-desc w-full">A full-stack web application enabling users to watch online videos with each other.</p>
+                        <div class="project-link">
+                            <a href="https://suke.app" target="_blank" class="project-link">Watch a video with me</a>
+                            <span class="project-link-arrow">&#8594</span>
+                        </div>
+                    </div>
+                </article>
         </section>
     </body>
 </html>
