@@ -3,12 +3,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 5em;
 }
 
 .hero-item {
     margin: 0 auto;
     text-align: center;
-    
 }
 
 .hero-image {
@@ -45,6 +45,10 @@
 }
 
 @media screen and (min-width: 900px) {
+    .hero {
+        margin-bottom: 13em;
+    }
+
     .hero-image {
         width: 300px;
     }
@@ -78,25 +82,30 @@
 }
 
 @media screen and (min-width: 1400px) {
-    .hero-image {
-        width: 350px;
+    .hero {
+        margin-top: 0px;
+        height: 70vh;
     }
 
     .hero-triangle {
-        width: 3.5em;
+        width: 4.5em;
         left: 13%;
+        top: 15em;
     }
 
     .hero-left-line {
-        width: 8em;
+        width: 9em;
+        top: 30em;
         left: 15%;
     }
     
     .hero-right-line {
-        width: 3.8em;
+        width: 4.8em;
+        top: 14em;
     }
 
     .hero-square {
-        width: 4em;
+        width: 5em;
+        top: 30em;
     }
 }

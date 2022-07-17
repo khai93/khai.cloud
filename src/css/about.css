@@ -1,0 +1,51 @@
+.about-img {
+    width: 15em;
+    margin: 0 auto;
+}
+
+.about-section {
+    text-align: center;
+}
+
+.about-solution {
+    margin-bottom: 2em;
+}
+
+.about-solution > h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.5em;
+    font-size: 14px;
+}
+
+
+@media screen and (min-width: 900px) {
+    .about-section {
+        margin: 10em auto;
+        text-align: center;
+
+    }
+
+    .about-section h2 + p {
+        max-width: 28em;
+        margin: 0 auto;
+        font-size: small;
+    }
+
+    .about-solution {
+        display: inline-block;
+        width: 15em;
+    }
+
+    .about-solution > h4 {
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .about-section {
+        width: 50em;
+    }
+    .about-section h2 + p {
+        max-width: 35em;
+    }
+}

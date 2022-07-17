@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="./css/font.css" />
         <link rel="stylesheet" href="./css/animations.css" />
         <link rel="stylesheet" href="./css/project.css" />
+        <link rel="stylesheet" href="./css/about.css" />
     </head>
     <body>
         <nav class="nav text-sm font-medium">
@@ -25,10 +26,10 @@
             <a href="#">CONTACT</a>
         </nav>
         <br class="mb-xl nav-seperator">
-        <section class="hero mb-xxxl">
+        <section class="hero">
             <article class="hero-item">
                 <img src="./assets/Sunset-rafiki.png" class="hero-image mb-md" />
-                <h1 class="font-medium mb-sm text-xl">Providing full-stack solutions anywhere.</h1>
+                <h1 class="font-medium mb-md">Providing full-stack solutions anywhere</h1>
                 <p class="text-sm mb-xl">Hi, I’m <a href="https://github.com/khai93">Khai</a>. I am a full stack web developer, I like to work with <a href="https://reactjs.org/">React</a> and <a href="https://nodejs.org/en/">Node</a>.</p>
                 <button class="primary-btn">Learn more</button>
             </article>
@@ -41,29 +42,54 @@
             <!-- hero assets end -->
         </section>
         <section class="project-section">
-            <h2 class="title text-lg mb-xl">PROJECTS</h2>
-                <article class="project-item">
-                    <img class=" project-img" src="./assets/jootwork_mockup.png" alt="A laptop showcasing the joot.work website">
-                    <div className="project-item-content flx-1">
-                        <h2 class="project-title mb-md text-lg">Joot.work</h2>
-                        <p class="project-desc w-full">A search engine for jobs developed with <a href="https://github.com/khai93">Next.js</a> cached with <a href="https://github.com/khai93">Postgres</a>. Powered by Linkedin, Indeed, and more.</p>
-                        <div class="project-link">
-                            <a href="https://joot.work" target="_blank" class="project-link">Search for jobs smarter</a>
-                            <span class="project-link-arrow">&#8594</span>
-                        </div>
+            <h2 class="title text-base mb-xxl">PROJECTS</h2>
+            <article class="project-item">
+                <img class=" project-img" src="./assets/jootwork_mockup.png" alt="A laptop showcasing the joot.work website">
+                <div className="project-item-content flx-1">
+                    <h2 class="project-title mb-md text-lg">Joot.work</h2>
+                    <p class="project-desc w-full">A search engine for jobs developed with <a href="https://github.com/khai93">Next.js</a> cached with <a href="https://github.com/khai93">Postgres</a>. Powered by Linkedin, Indeed, and more.</p>
+                    <div class="project-link">
+                        <a href="https://joot.work" target="_blank" class="project-link">Search for jobs smarter</a>
+                        <span class="project-link-arrow">&#8594</span>
                     </div>
-                </article>
-                <article class="project-item">
-                    <img class="project-img" src="./assets/jootwork_mockup.png" alt="A laptop showcasing the joot.work website">
-                    <div className="project-item-content flex-1">
-                        <h2 class="project-title mb-md text-lg">Suke.app</h2>
-                        <p class="project-desc w-full">A full-stack web application enabling users to watch online videos with each other.</p>
-                        <div class="project-link">
-                            <a href="https://suke.app" target="_blank" class="project-link">Watch a video with me</a>
-                            <span class="project-link-arrow">&#8594</span>
-                        </div>
+                </div>
+            </article>
+            <article class="project-item">
+                <img class="project-img" src="./assets/jootwork_mockup.png" alt="A laptop showcasing the joot.work website">
+                <div className="project-item-content flex-1">
+                    <h2 class="project-title mb-md text-lg ">Suke.app</h2>
+                    <p class="project-desc w-full">A full-stack web application enabling users to watch online videos with each other.</p>
+                    <div class="project-link">
+                        <a href="https://suke.app" target="_blank" class="project-link">Watch a video with me</a>
+                        <span class="project-link-arrow">&#8594</span>
                     </div>
+                </div>
+            </article>
+        </section>
+        <section class="about-section">
+            <h2 class="title text-lg mb-xxl">ABOUT</h2>
+            <img class="about-img" src="./assets/about.png">
+            <h2 class="text-base mb-sm font-medium">Innovative, task-oriented, and curious self-learner</h2>
+            <p class="text-sm mb-lg">
+                Striving to write clean tested code and an advocate for production
+                ready architecture patterns. I enjoy learning/developing new 
+                technologies and concepts which improve developer productivity. 
+            </p>
+            <div class="mb-lg"></div>
+            <div class="flex text-sm w-full">
+                <article class="about-solution">
+                    <h4 class="text-sm">Frontend Solutions</h4>
+                    <p>
+                        Optimized websites with a clean design impacting your target audience 
+                    </p>
                 </article>
+                <article class="about-solution">
+                    <h4>Backend Solutions</h4>
+                    <p>
+                        Enterprise code developed to be reusable, modular, and testable. 
+                    </p>
+                </article>
+            </div>
         </section>
     </body>
 </html>
