@@ -21,9 +21,7 @@ a {
     transition-duration: 300ms;
 }
 
-a:hover {
-    filter: brightness(10%)
-}
+
 
 .primary-btn {
     background-color: var(--primary-color);
@@ -87,6 +85,11 @@ a:hover {
     color: var(--gray);
 }
 
+.nav > a:hover {
+    cursor: pointer;
+    filter: brightness(0%)
+}
+
 .nav > a:not(:nth-of-type(0)) {
     margin-left: 1.7em;
 }
@@ -103,7 +106,6 @@ a:hover {
 .flex-1 {
     flex: 1;
 }
-
 
 @media screen and (min-width: 900px) {
     .nav > a:not(:nth-of-type(0)) {

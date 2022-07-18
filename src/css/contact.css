@@ -19,6 +19,10 @@
     margin: 0 auto;
 }
 
+.contact-section a {
+    text-decoration: none;
+}
+
 @media screen and (min-width: 900px) {
     .contact-section {
         margin-top: 0;

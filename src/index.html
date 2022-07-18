@@ -21,18 +21,18 @@
     </head>
     <body>
         <nav class="nav text-sm font-medium">
-            <a href="#" class="nav-active">HOME</a>
-            <a href="#">PROJECTS</a>
-            <a href="#">ABOUT</a>
-            <a href="#">CONTACT</a>
+            <a onClick="smoothScrollToElementById('hero')">HOME</a>
+            <a onClick="smoothScrollToElementById('project')">PROJECTS</a>
+            <a onClick="smoothScrollToElementById('about')">ABOUT</a>
+            <a onClick="smoothScrollToElementById('contact')">CONTACT</a>
         </nav>
         <br class="mb-xl nav-seperator">
         <section class="hero">
             <article class="hero-item">
                 <img src="./assets/Sunset-rafiki.png" class="hero-image mb-md" />
                 <h1 class="font-medium mb-md">Providing full-stack solutions anywhere</h1>
-                <p class="text-sm mb-xl">Hi, I’m <a href="https://github.com/khai93">Khai</a>. I am a full stack web developer, I like to work with <a href="https://reactjs.org/">React</a> and <a href="https://nodejs.org/en/">Node</a>.</p>
-                <button class="primary-btn">Learn more</button>
+                <p class="text-sm mb-xl">Hi, I’m <a target="_blank" href="https://github.com/khai93">Khai</a>. I am a full stack web developer, I like to work with <a target="_blank" href="https://reactjs.org/">React</a> and <a target="_blank" href="https://nodejs.org/en/">Node</a>.</p>
+                <button onClick="smoothScrollToElementById('project')" class="primary-btn">Learn more</button>
             </article>
 
             <!-- hero assets -->
@@ -42,7 +42,7 @@
             <img src="./assets/triangle.png" class="hero-asset hero-triangle" />
             <!-- hero assets end -->
         </section>
-        <section class="project-section">
+        <section id="project" class="project-section">
             <h2 class="title text-base mb-xxl">PROJECTS</h2>
             <article class="project-item">
                 <img class=" project-img" src="./assets/jootwork_mockup.png" alt="A laptop showcasing the joot.work website">
@@ -67,7 +67,7 @@
                 </div>
             </article>
         </section>
-        <section class="about-section">
+        <section id="about" class="about-section">
             <h2 class="title text-lg mb-xxl">ABOUT</h2>
             <img class="about-img" src="./assets/about.png">
             <h2 class="text-base mb-sm font-medium">Innovative, task-oriented, and curious self-learner</h2>
@@ -92,9 +92,10 @@
                 </article>
             </div>
         </section>
-        <section class="contact-section">
-            <button class="primary-btn">Lets work together</button>
+        <section id="contact" class="contact-section">
+            <a href="mailto:nang.khai76@gmail.com?subject=Contact from khai.cloud" class="primary-btn">Lets work together</a>
             <img class="contact-circle" src="./assets/about-circles.png" alt="Dotted circle surrounding a button" />
         </section>
+        <script src="./js/smoothScrollToElementById.js"></script>
     </body>
 </html>
