@@ -22,7 +22,7 @@
     .about-section {
         margin: 10em auto;
         text-align: center;
-
+        margin-bottom: 5em;
     }
 
     .about-section h2 + p {
@@ -45,7 +45,18 @@
     .about-section {
         width: 50em;
     }
+
     .about-section h2 + p {
         max-width: 35em;
+    }
+
+    .about-solution > h4 {
+        font-weight: normal;
+    }
+
+    .about-solution {
+        width: 15em;
+        margin-right: 3em;
+        margin-left: 3em;
     }
 }
